@@ -1,0 +1,65 @@
+.addgiohang {
+    position: fixed;
+    top: 20px;
+    right: -340px;
+    width: 300px;
+    transition: all .2s;
+    box-sizing: border-box;
+    z-index: 99999;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 8px rgba(0,0,0,.15);
+    border-radius: 16px;
+    padding: 18px;
+    touch-action: pan-y;
+    font-size: 16px;
+    color: red;
+    display: block !important;
+    z-index: 99999999;
+}
+.addgiohang.error {
+    /*border: 2px solid #ff3102;
+    box-shadow: none;*/
+}
+.addgiohang.is-active {
+    right: 20px;
+}
+p.addgh-title {
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.addgh-pic {
+    width: 100%;
+    height: 100px;
+}
+.addgh-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.addgh-tieude {
+    color: #000;
+    font-weight: bold;
+}
+.addgh-mausize {
+    font-size: 14px;
+    color: #000;
+    margin: 10px 0 7px 0;
+}
+.addgh-price {
+    font-size: 14px;
+    color: red;
+}
+.addgh-xem {
+    border: 2px solid #000;
+    text-align: center;
+    padding: 8px;
+    border-radius: 16px;
+}
+.addgh-xem a {
+    color: #000 !important;
+    font-size: 14px;
+    display: block;
+}
